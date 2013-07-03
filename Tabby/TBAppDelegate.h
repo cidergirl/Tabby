@@ -8,8 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface TBAppDelegate : UIResponder <UIApplicationDelegate>
+@interface TBAppDelegate : UIResponder <UIApplicationDelegate, UITabBarControllerDelegate, UINavigationControllerDelegate>
 
-@property (strong, nonatomic) UIWindow *window;
+@property (strong, nonatomic) IBOutlet UIWindow *window;
+@property (strong, nonatomic) IBOutlet UITabBarController *tabBarController;
 
 @end

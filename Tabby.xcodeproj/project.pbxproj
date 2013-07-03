@@ -21,6 +21,14 @@
 		2A29F2F517843FF50087CFA6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A29F2D617843FF50087CFA6 /* Foundation.framework */; };
 		2A29F2FD17843FF60087CFA6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2A29F2FB17843FF60087CFA6 /* InfoPlist.strings */; };
 		2A29F30017843FF60087CFA6 /* TabbyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A29F2FF17843FF60087CFA6 /* TabbyTests.m */; };
+		2AB8BED5178460170078CD0F /* TBCustomTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AB8BED4178460170078CD0F /* TBCustomTabBar.m */; };
+		2AB8BED7178460950078CD0F /* TBTabBarOverlayView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2AB8BED6178460950078CD0F /* TBTabBarOverlayView.xib */; };
+		2AB8BEDA178462910078CD0F /* TBTabBarOverlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AB8BED9178462910078CD0F /* TBTabBarOverlayView.m */; };
+		2ABA895E178440A900736CE5 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2ABA895D178440A900736CE5 /* MainWindow.xib */; };
+		2ABA8961178441CC00736CE5 /* TBLeftViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ABA8960178441CC00736CE5 /* TBLeftViewController.m */; };
+		2ABA8964178441ED00736CE5 /* TBRightViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ABA8963178441ED00736CE5 /* TBRightViewController.m */; };
+		2ABA89C117844D8000736CE5 /* TBLeftViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2ABA89C017844D8000736CE5 /* TBLeftViewController.xib */; };
+		2ABA89C317844E6200736CE5 /* TBRightViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2ABA89C217844E6200736CE5 /* TBRightViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +61,18 @@
 		2A29F2FC17843FF60087CFA6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		2A29F2FE17843FF60087CFA6 /* TabbyTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TabbyTests.h; sourceTree = "<group>"; };
 		2A29F2FF17843FF60087CFA6 /* TabbyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TabbyTests.m; sourceTree = "<group>"; };
+		2AB8BED3178460170078CD0F /* TBCustomTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TBCustomTabBar.h; path = Classes/TBCustomTabBar.h; sourceTree = "<group>"; };
+		2AB8BED4178460170078CD0F /* TBCustomTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TBCustomTabBar.m; path = Classes/TBCustomTabBar.m; sourceTree = "<group>"; };
+		2AB8BED6178460950078CD0F /* TBTabBarOverlayView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = TBTabBarOverlayView.xib; path = Classes/TBTabBarOverlayView.xib; sourceTree = "<group>"; };
+		2AB8BED8178462910078CD0F /* TBTabBarOverlayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TBTabBarOverlayView.h; path = Classes/TBTabBarOverlayView.h; sourceTree = "<group>"; };
+		2AB8BED9178462910078CD0F /* TBTabBarOverlayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TBTabBarOverlayView.m; path = Classes/TBTabBarOverlayView.m; sourceTree = "<group>"; };
+		2ABA895D178440A900736CE5 /* MainWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		2ABA895F178441CC00736CE5 /* TBLeftViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TBLeftViewController.h; path = Classes/TBLeftViewController.h; sourceTree = "<group>"; };
+		2ABA8960178441CC00736CE5 /* TBLeftViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TBLeftViewController.m; path = Classes/TBLeftViewController.m; sourceTree = "<group>"; };
+		2ABA8962178441ED00736CE5 /* TBRightViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TBRightViewController.h; path = Classes/TBRightViewController.h; sourceTree = "<group>"; };
+		2ABA8963178441ED00736CE5 /* TBRightViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TBRightViewController.m; path = Classes/TBRightViewController.m; sourceTree = "<group>"; };
+		2ABA89C017844D8000736CE5 /* TBLeftViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = TBLeftViewController.xib; path = Classes/TBLeftViewController.xib; sourceTree = "<group>"; };
+		2ABA89C217844E6200736CE5 /* TBRightViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = TBRightViewController.xib; path = Classes/TBRightViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +132,9 @@
 		2A29F2DA17843FF50087CFA6 /* Tabby */ = {
 			isa = PBXGroup;
 			children = (
+				2AB8BED217845FCD0078CD0F /* Utils */,
+				2ABA895C1784408900736CE5 /* Views */,
+				2ABA895B1784407A00736CE5 /* ViewControllers */,
 				2A29F2E317843FF50087CFA6 /* TBAppDelegate.h */,
 				2A29F2E417843FF50087CFA6 /* TBAppDelegate.m */,
 				2A29F2DB17843FF50087CFA6 /* Supporting Files */,
@@ -150,6 +173,39 @@
 				2A29F2FB17843FF60087CFA6 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2AB8BED217845FCD0078CD0F /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				2AB8BED3178460170078CD0F /* TBCustomTabBar.h */,
+				2AB8BED4178460170078CD0F /* TBCustomTabBar.m */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		2ABA895B1784407A00736CE5 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				2ABA895F178441CC00736CE5 /* TBLeftViewController.h */,
+				2ABA8960178441CC00736CE5 /* TBLeftViewController.m */,
+				2ABA89C017844D8000736CE5 /* TBLeftViewController.xib */,
+				2ABA8962178441ED00736CE5 /* TBRightViewController.h */,
+				2ABA8963178441ED00736CE5 /* TBRightViewController.m */,
+				2ABA89C217844E6200736CE5 /* TBRightViewController.xib */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		2ABA895C1784408900736CE5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2ABA895D178440A900736CE5 /* MainWindow.xib */,
+				2AB8BED6178460950078CD0F /* TBTabBarOverlayView.xib */,
+				2AB8BED8178462910078CD0F /* TBTabBarOverlayView.h */,
+				2AB8BED9178462910078CD0F /* TBTabBarOverlayView.m */,
+			);
+			name = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -228,6 +284,10 @@
 				2A29F2E717843FF50087CFA6 /* Default.png in Resources */,
 				2A29F2E917843FF50087CFA6 /* Default@2x.png in Resources */,
 				2A29F2EB17843FF50087CFA6 /* Default-568h@2x.png in Resources */,
+				2ABA895E178440A900736CE5 /* MainWindow.xib in Resources */,
+				2ABA89C117844D8000736CE5 /* TBLeftViewController.xib in Resources */,
+				2ABA89C317844E6200736CE5 /* TBRightViewController.xib in Resources */,
+				2AB8BED7178460950078CD0F /* TBTabBarOverlayView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,6 +324,10 @@
 			files = (
 				2A29F2E117843FF50087CFA6 /* main.m in Sources */,
 				2A29F2E517843FF50087CFA6 /* TBAppDelegate.m in Sources */,
+				2ABA8961178441CC00736CE5 /* TBLeftViewController.m in Sources */,
+				2ABA8964178441ED00736CE5 /* TBRightViewController.m in Sources */,
+				2AB8BED5178460170078CD0F /* TBCustomTabBar.m in Sources */,
+				2AB8BEDA178462910078CD0F /* TBTabBarOverlayView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -330,7 +394,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -355,7 +419,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -369,6 +433,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Tabby/Tabby-Prefix.pch";
 				INFOPLIST_FILE = "Tabby/Tabby-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -380,6 +445,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Tabby/Tabby-Prefix.pch";
 				INFOPLIST_FILE = "Tabby/Tabby-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -438,6 +504,7 @@
 				2A29F30517843FF60087CFA6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2A29F30617843FF60087CFA6 /* Build configuration list for PBXNativeTarget "TabbyTests" */ = {
 			isa = XCConfigurationList;
@@ -446,6 +513,7 @@
 				2A29F30817843FF60087CFA6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
